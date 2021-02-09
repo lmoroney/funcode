@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 'use strict';
+var model
 
 // Signs-in Friendly Chat.
 function signIn() {
@@ -56,9 +57,8 @@ function saveMessage(messageText) {
 	var errorMessage = ""
 	// TODO -- Don't load the model every time, have an instance
 	// of the model cached in the browser and use that
-	toxicity.load(threshold).then(model => {
-	    const sentences = [messageText];
-	    model.classify(sentences).then(predictions => {
+	const sentences = [messageText];
+	model.classify(sentences).then(predictions => {
 	        console.log(predictions);
 	        for(var i=0; i<7; i++){
 	            if(predictions[i].results[0].match){
@@ -84,7 +84,6 @@ function saveMessage(messageText) {
 				
 			}
 	    });
-	});
 }
 
 // Loads chat messages history and listens for upcoming ones.
@@ -372,6 +371,14 @@ function checkSetup() {
   }
 }
 
+function initToxicity(){
+    // load model
+	var threshold = 0.9;
+    toxicity.load(threshold).then(mdl => {
+        model = mdl;
+	});   
+}
+
 // Checks that Firebase has been imported.
 checkSetup();
 
@@ -413,3 +420,5 @@ firebase.performance();
 
 // We load currently existing chat messages and listen to new ones.
 loadMessages();
+
+initToxicity();
