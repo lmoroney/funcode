@@ -111,28 +111,33 @@ function loadMessages() {
 // Saves a new message containing an image in Firebase.
 // This first saves the image in Firebase storage.
 function saveImageMessage(file) {
-  // 1 - We add a message with a loading icon that will get updated with the shared image.
-  firebase.firestore().collection('messages').add({
-    name: getUserName(),
-    imageUrl: LOADING_IMAGE_URL,
-    profilePicUrl: getProfilePicUrl(),
-    timestamp: firebase.firestore.FieldValue.serverTimestamp()
-  }).then(function(messageRef) {
-    // 2 - Upload the image to Cloud Storage.
-    var filePath = firebase.auth().currentUser.uid + '/' + messageRef.id + '/' + file.name;
-    return firebase.storage().ref(filePath).put(file).then(function(fileSnapshot) {
-      // 3 - Generate a public URL for the file.
-      return fileSnapshot.ref.getDownloadURL().then((url) => {
-        // 4 - Update the chat message placeholder with the image's URL.
-        return messageRef.update({
-          imageUrl: url,
-          storageUri: fileSnapshot.metadata.fullPath
-        });
-      });
-    });
-  }).catch(function(error) {
-    console.error('There was an error uploading a file to Cloud Storage:', error);
-  });
+	var theImage = new Image();
+	theImage.addEventListener('load', function(){
+	    // 1 - We add a message with a loading icon that will get updated with the shared image.
+	    firebase.firestore().collection('messages').add({
+	      name: getUserName(),
+	      imageUrl: LOADING_IMAGE_URL,
+	      profilePicUrl: getProfilePicUrl(),
+	      timestamp: firebase.firestore.FieldValue.serverTimestamp()
+	    }).then(function(messageRef) {
+	      // 2 - Upload the image to Cloud Storage.
+	      var filePath = firebase.auth().currentUser.uid + '/' + messageRef.id + '/' + file.name;
+	      return firebase.storage().ref(filePath).put(file).then(function(fileSnapshot) {
+	        // 3 - Generate a public URL for the file.
+	        return fileSnapshot.ref.getDownloadURL().then((url) => {
+	          // 4 - Update the chat message placeholder with the image's URL.
+	          return messageRef.update({
+	            imageUrl: url,
+	            storageUri: fileSnapshot.metadata.fullPath
+	          });
+	        });
+	      });
+	    }).catch(function(error) {
+	      console.error('There was an error uploading a file to Cloud Storage:', error);
+	    });		
+	});
+	theImage.src = file;
+
 }
 
 // Saves the messaging device token to the datastore.
@@ -180,6 +185,7 @@ function onMediaFileSelected(event) {
     signInSnackbarElement.MaterialSnackbar.showSnackbar(data);
     return;
   }
+  
   // Check if the user is signed-in
   if (checkSignedInWithMessage()) {
     saveImageMessage(file);
@@ -377,6 +383,9 @@ function initToxicity(){
     toxicity.load(threshold).then(mdl => {
         model = mdl;
 	});   
+	mobilenet.load().then(mob =>{
+		mobilenet-model = mob;
+	})
 }
 
 // Checks that Firebase has been imported.
