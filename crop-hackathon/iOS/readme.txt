@@ -1,0 +1,1 @@
+Remember to run pod install before opening the .xcworkspace, I didn't check the pods into GitHub.
