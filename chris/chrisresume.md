@@ -7,22 +7,22 @@ christopher.moroney1@gmail.com
 
 ## Skills
 ### Programming
-Java, C, C++, SQL, Python, Go, Rust, Prolog, Scheme, R, MIPS, and VHDL
+- Java, C, C++, SQL, Python, Go, Rust, Prolog, Scheme, R, MIPS, and VHDL
 
 ### Full Stack Development
-HTML, CSS, JavaScript, Backend JavaScript Node.js, MongoDB, Heroku
+- HTML, CSS, JavaScript, Backend JavaScript Node.js, MongoDB, Heroku
 
 ### Artificial Intelligence
-TensorFlow, Python, Jupyter, Pandas, MatPlotLib
+- TensorFlow, Python, Jupyter, Pandas, MatPlotLib
 
 ### Cloud
-Heroku, Google Cloud
+- Heroku, Google Cloud
 
 ### Productivity
-Microsoft Word, Excel, PowerPoint, Outlook. Google Docs and Slides
+- Microsoft Word, Excel, PowerPoint, Outlook. Google Docs and Slides
 
 ### Spoken Languages
-Fluent in English, Proficient in Spanish
+- Fluent in English, Proficient in Spanish
 
 ## Qualifications and Achievements
 - Holder of *TensorFlow Professional Certificate* from Deeplearning.ai and Google
@@ -34,6 +34,7 @@ Fluent in English, Proficient in Spanish
 
 **Coursework:** Calculus III, Systems Design, Algorithm Design & Analysis, Applications Programming,
 Concepts in Programming Languages, Netcentric Computing, Data Science, Theory of Computation
+
 **Clubs and Activities:** SPU Orchestra (student leader and principal), SPU Developers (core-team member)
 
 ### Bellevue College Bellevue, WA, June 2019
