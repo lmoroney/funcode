@@ -9,19 +9,19 @@ christopher.moroney1@gmail.com
 ### Programming
 Java, C, C++, SQL, Python, Go, Rust, Prolog, Scheme, R, MIPS, and VHDL
 
-###Full Stack Development
+### Full Stack Development
 HTML, CSS, JavaScript, Backend JavaScript Node.js, MongoDB, Heroku
 
-###Artificial Intelligence
+### Artificial Intelligence
 TensorFlow, Python, Jupyter, Pandas, MatPlotLib
 
-###Cloud
+### Cloud
 Heroku, Google Cloud
 
-###Microsoft Office
+### Microsoft Office
 Microsoft Word, Excel, PowerPoint, Outlook. Google Docs and Slides
 
-###Spoken Languages
+### Spoken Languages
 Fluent in English, Proficient in Spanish
 
 ## Qualifications and Achievements
