@@ -32,15 +32,15 @@ christopher.moroney1@gmail.com
 ### Seattle Pacific University** Seattle, WA Expected June 2021
 *Bachelor of Science* in Computer Science - GPA 3.75
 
-**Coursework:** Calculus III, Systems Design, Algorithm Design & Analysis, Applications Programming,
+*Coursework:* Calculus III, Systems Design, Algorithm Design & Analysis, Applications Programming,
 Concepts in Programming Languages, Netcentric Computing, Data Science, Theory of Computation
 
-**Clubs and Activities:** SPU Orchestra (student leader and principal), SPU Developers (core-team member)
+*Clubs and Activities:* SPU Orchestra (student leader and principal), SPU Developers (core-team member)
 
 ### Bellevue College Bellevue, WA, June 2019
 *AS in Arts and Sciences* - GPA 3.78
 
-**Coursework:** Calculus I/II, Fundamentals of Computer Science I/II, Data Structures, SQL Fundamentals
+*Coursework:* Calculus I/II, Fundamentals of Computer Science I/II, Data Structures, SQL Fundamentals
 
 ### Washington Aerospace Scholars Seattle, WA, 2018
 *University of Washington 5-credit course in Earth and Space Sciences*
