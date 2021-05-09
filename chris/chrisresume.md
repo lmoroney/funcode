@@ -46,12 +46,16 @@ July 2020 - September 2020
 - Worked with QA team to update and maintain existing infrastructure in Python and C++
 
 ### TacoTime NW Issaquah, WA June 2017- August 2019
-* Crew Member *
+
+*Crew Member*
+
 Providing customer service in a busy, multitasking environment; responsible for training new workers and
 setting their schedules; strong team player working within tight deadlines.
 
 ### SnoKing Ice Arenas Renton, WA December 2015 - January 2017
-* Skate Counter / Skate Patrol *
+
+*Skate Counter / Skate Patrol*
+
 Managed inventory, patrolled free-skate sessions; customer service;
 supervised new staff, teams of 5 - 8 members.
 
