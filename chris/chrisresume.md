@@ -36,7 +36,9 @@ Concepts in Programming Languages, Netcentric Computing, Data Science, Theory of
 
 ### Deeplearning.ai Palo Alto, CA 
 July 2020 - September 2020
-*Software Developer Internship* 
+
+*Software Developer Internship*
+
 - Artificial Intelligence developer using Python, TensorFlow, Numpy, Pandas, Jupyter supporting deeplearning.ai courses used by hundreds of thousands of students
 
 - Supported course creation by creating code, debugging student work, monitoring livestreams.
