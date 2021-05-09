@@ -72,7 +72,7 @@ setting their schedules; strong team player working within tight deadlines.
 Managed inventory, patrolled free-skate sessions; customer service;
 supervised new staff, teams of 5 - 8 members.
 
-ACCOMPLISHMENTS AND AWARDS
+# ACCOMPLISHMENTS AND AWARDS
 - Filmed by Google for my Artificial Intelligence project: http://bit.ly/2tpYizM March 2017
 - Trustee’s Scholarship Award from Seattle Pacific University September 2019
 - Dean’s List selection at Seattle Pacific University Spring 2020, Fall 2020, Winter 2021
