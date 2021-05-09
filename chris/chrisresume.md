@@ -1,16 +1,28 @@
 # Christopher Moroney
 
-Seattle, WA - 425-445-1021 – christopher.moroney1@gmail.com
+Seattle, WA - 425-445-1021 
+christopher.moroney1@gmail.com
 
 [https://github.com/chrismoroney](https://github.com/chrismoroney) - [https://www.linkedin.com/in/christopher-moroney-36baa11a3/](https://www.linkedin.com/in/christopher-moroney-36baa11a3/)
 
 ## Skills
-**Programming** -- Java, C, C++, SQL, Python, Go, Rust, Prolog, Scheme, R, MIPS, and VHDL
-**Full Stack Development** – HTML, CSS, JavaScript, Backend JavaScript Node.js, MongoDB, Heroku
-**Artificial Intelligence** -- TensorFlow, Python, Jupyter, Pandas, MatPlotLib
-**Cloud** -- Heroku, Google Cloud
-**Microsoft Office** -- Microsoft Word, Excel, PowerPoint, Outlook. Google Docs and Slides
-**Spoken Languages** -- Fluent in English, Proficient in Spanish
+### Programming
+Java, C, C++, SQL, Python, Go, Rust, Prolog, Scheme, R, MIPS, and VHDL
+
+###Full Stack Development
+HTML, CSS, JavaScript, Backend JavaScript Node.js, MongoDB, Heroku
+
+###Artificial Intelligence
+TensorFlow, Python, Jupyter, Pandas, MatPlotLib
+
+###Cloud
+Heroku, Google Cloud
+
+###Microsoft Office
+Microsoft Word, Excel, PowerPoint, Outlook. Google Docs and Slides
+
+###Spoken Languages
+Fluent in English, Proficient in Spanish
 
 ## Qualifications and Achievements
 Holder of *TensorFlow Professional Certificate* from Deeplearning.ai and Google
