@@ -18,15 +18,15 @@ TensorFlow, Python, Jupyter, Pandas, MatPlotLib
 ### Cloud
 Heroku, Google Cloud
 
-### Microsoft Office
+### Productivity
 Microsoft Word, Excel, PowerPoint, Outlook. Google Docs and Slides
 
 ### Spoken Languages
 Fluent in English, Proficient in Spanish
 
 ## Qualifications and Achievements
-Holder of *TensorFlow Professional Certificate* from Deeplearning.ai and Google
-Founded and Managed *Google Developer Student Club* for Seattle Pacific University September 2020 – June 2021
+- Holder of *TensorFlow Professional Certificate* from Deeplearning.ai and Google
+- Founded and Managed *Google Developer Student Club* for Seattle Pacific University September 2020 – June 2021
 
 ## EDUCATION
 ### Seattle Pacific University** Seattle, WA Expected June 2021
